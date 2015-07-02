@@ -7,10 +7,10 @@
 
 ### Logos
 
-![](https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/OpsManager.svg)
+![](http://opsmanager.github.io/logo-opsmanager/OpsManager.svg)
 
-![](https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/OpsManagerIcon-shadowed.svg)
+![](http://opsmanager.github.io/logo-opsmanager/OpsManagerIcon-shadowed.svg)
 
-![](https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/ops-construction.svg)
+![](http://opsmanager.github.io/logo-opsmanager/ops-construction.svg)
 
-![](https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/ops-reconstruction.svg)
+![](http://opsmanager.github.io/logo-opsmanager/ops-reconstruction.svg)
