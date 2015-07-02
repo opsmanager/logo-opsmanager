@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CaR>
 <Construction>
-<Window x="13.239941385832902" y="-0.962169957536112" w="20.158736798317793"/>
-<Windowdim w="1818" h="1338"/>
+<Window x="2.5584587955144755" y="-0.04680635854966031" w="17.959392772949755"/>
+<Windowdim w="1280" h="713"/>
 <Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" selectionsize="8" monkeyspeed="20" gridopacity="20" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false" figDP="false"/>
-<CTRLtxtfield Ename="a" x="31" y="34" w="121" h="22" showC="true" showU="false" showV="false" hidden="false" C="a = " U="°" V="1" txt="2"/>
-<CTRLtxtfield Ename="b" x="31" y="62" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="b = " U="°" V="1" txt="2.5"/>
-<CTRLtxtfield Ename="c" x="33" y="90" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="c = " U="°" V="1" txt="3"/>
-<CTRLtxtfield Ename="d" x="31" y="118" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="d = " U="°" V="1" txt="4.9"/>
+<CTRLtxtfield Ename="a" x="31" y="34" w="121" h="22" showC="true" showU="false" showV="false" hidden="false" C="a = " U="°" V="1" txt="1."/>
+<CTRLtxtfield Ename="b" x="31" y="62" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="b = " U="°" V="1" txt="3.2"/>
+<CTRLtxtfield Ename="c" x="33" y="90" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="c = " U="°" V="1" txt="3.7"/>
+<CTRLtxtfield Ename="d" x="31" y="118" w="120" h="22" showC="true" showU="false" showV="false" hidden="false" C="d = " U="°" V="1" txt="6"/>
 <Objects>
 <Point name="P1" n="14" color="2" scolor="70,,70,,70" type="thin" hidden="true" x="0" actx="0.0" y="0" acty="0.0" shape="circle" fixed="true">Point</Point>
 <Point name="P2" n="17" color="2" scolor="70,,70,,70" type="thin" hidden="true" x="10.0" y="0.0" shape="circle">Point</Point>
-<Expression name="a" n="190" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="13.239941385832902" y="-0.9258452696157133" value="2" prompt="Value">Expression &quot;2&quot; at 0.0, 0.02</Expression>
-<Expression name="b" n="191" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="13.239941385832902" y="-0.9258452696157133" value="2.5" prompt="Value">Expression &quot;2.5&quot; at 0.0, 0.02</Expression>
-<Expression name="c" n="192" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="13.239941385832902" y="-0.9258452696157133" value="3" prompt="Value">Expression &quot;3&quot; at 13.24, -0.91</Expression>
-<Expression name="d" n="193" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="13.239941385832902" y="-0.9258452696157133" value="4.9" prompt="Value">Expression &quot;4.9&quot; at 13.24, -0.93</Expression>
+<Expression name="a" n="190" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="2.5584587955144755" y="-0.014444740644529573" value="1" prompt="Value">Expression &quot;1&quot; at 13.24, -0.93</Expression>
+<Expression name="b" n="191" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="2.5584587955144755" y="-0.014444740644529573" value="3.2" prompt="Value">Expression &quot;3.2&quot; at 13.24, -0.93</Expression>
+<Expression name="c" n="192" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="2.5584587955144755" y="-0.014444740644529573" value="3.7" prompt="Value">Expression &quot;3.7&quot; at 13.24, -0.93</Expression>
+<Expression name="d" n="193" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="2.5584587955144755" y="-0.014444740644529573" value="6" prompt="Value">Expression &quot;6&quot; at 13.24, -0.93</Expression>
+<Expression name="e" n="224" color="1" type="thick" hidden="super" showname="true" showvalue="true" x="-9.23698801337728" y="0.8103896232524052" value="3.7" prompt="Value">Expression &quot;3.7&quot; at 0.0, 0.0</Expression>
 <Circle name="c2" n="21" color="4" hidden="true" through="P1" midpoint="P2" acute="true">Circle around P2 through P1</Circle>
 <Line name="l1" n="30" color="3" hidden="true" from="P1" to="P2">Line through P1 and P2</Line>
 <Circle name="c11" n="104" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="a" midpoint="P1" acute="true">Circle around P1 with radius 2.2233491078948866</Circle>
 <Circle name="c1" n="18" color="4" hidden="true" through="P2" midpoint="P1" acute="true">Circle around P1 through P2</Circle>
-<Circle name="c30" n="200" type="thin" hidden="true" fixed="3" midpoint="P1" acute="true">Circle around P1 with radius 2.7626277483766146</Circle>
+<Circle name="c30" n="200" type="thin" hidden="true" fixed="e" midpoint="P1" acute="true">Circle around P1 with radius 2.7626277483766146</Circle>
 <Intersection name="P3" n="31" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="l1" second="c2" awayfrom="P1" shape="circle" which="first">Intersection between l1 and c2</Intersection>
 <Intersection name="P6" n="45" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="c2" second="c1" shape="circle" which="second">Intersection between c2 and c1</Intersection>
 <Intersection name="P5" n="38" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="c2" second="c1" shape="circle" which="first">Intersection between c2 and c1</Intersection>
@@ -32,21 +33,20 @@
 <Segment name="s7" n="89" color="1" hidden="true" from="P5" to="P2">Line segment from P5 to P2</Segment>
 <Segment name="s11" n="101" color="1" hidden="true" from="P6" to="P2">Line segment from P6 to P2</Segment>
 <Circle name="c3" n="34" color="4" hidden="true" through="P2" midpoint="P3" acute="true">Circle around P3 through P2</Circle>
+<Polygon name="poly16" n="193" color="2" scolor="161,,161,,161" type="thin" background="true" point1="P5" point2="P2" point3="P6" point4="P1">Polygon</Polygon>
 <Circle name="c14" n="125" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P13" acute="true">Circle around P13 with radius 3.022438350690016</Circle>
-<Circle name="c20" n="143" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="c" midpoint="P13" acute="true">Circle around P13 with radius 3.917500648922778</Circle>
 <Circle name="c27" n="164" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P13" acute="true">Circle around P13 with radius 5.177375670705899</Circle>
-<Polygon name="poly16" n="193" color="2" type="thin" background="true" point1="P5" point2="P2" point3="P6" point4="P1">Polygon</Polygon>
 <Circle name="c31" n="203" type="thin" hidden="true" fixed="3" midpoint="P13" acute="true">Circle around P13 with radius 1.1351346709726058</Circle>
+<Circle name="c20" n="143" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="e" midpoint="P13" acute="true">Circle around P13 with radius 3.917500648922778</Circle>
 <Intersection name="P4" n="35" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="c3" second="c2" shape="circle" which="first">Intersection between c3 and c2</Intersection>
 <Intersection name="P7" n="49" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="c2" second="c3" shape="circle" which="first">Intersection between c2 and c3</Intersection>
 <Intersection name="P8" n="105" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="s7" second="c6" shape="circle" which="first">Intersection between s7 and c6</Intersection>
 <Intersection name="P10" n="108" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="l1" second="c8" shape="circle" which="second">Intersection between l1 and c8</Intersection>
 <Intersection name="P12" n="110" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="s11" second="c10" shape="circle" which="first">Intersection between s11 and c10</Intersection>
 <Intersection name="P16" n="174" color="2" type="thin" hidden="true" first="l1" second="c14" shape="circle" which="first">Intersection between l1 and c14</Intersection>
-<Intersection name="P24" n="183" color="2" type="thin" hidden="true" first="l1" second="c20" shape="circle" which="first">Intersection between l1 and c20</Intersection>
 <Intersection name="P30" n="189" color="2" type="thin" hidden="true" first="l1" second="c27" shape="circle" which="first">Intersection between l1 and c27</Intersection>
-<Intersection name="P32" n="213" color="2" hidden="true" first="s2" second="c30" shape="circle" which="second">Intersection between s2 and c30</Intersection>
-<Intersection name="P35" n="217" color="2" hidden="true" first="s3" second="c30" shape="circle" which="first">Intersection between s3 and c30</Intersection>
+<Intersection name="P24" n="183" color="2" type="thin" hidden="true" first="l1" second="c20" shape="circle" which="first">Intersection between l1 and c20</Intersection>
+<PointOn name="P34" n="281" color="2" hidden="true" on="poly16" alpha="2.999415984164789" x="0.002920079176053747" y="-0.005057725495049681" shape="circle">Point on poly16</PointOn>
 <Segment name="s4" n="50" color="1" hidden="true" from="P6" to="P7">Line segment from P6 to P7</Segment>
 <Segment name="s5" n="53" color="1" hidden="true" from="P7" to="P3">Line segment from P7 to P3</Segment>
 <Segment name="s6" n="56" color="1" hidden="true" from="P3" to="P4">Line segment from P3 to P4</Segment>
@@ -55,7 +55,6 @@
 <Circle name="c9" n="83" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="a" midpoint="P7" acute="true">Circle around P7 with radius 1.8349217901221182</Circle>
 <Segment name="s8" n="92" color="1" hidden="true" from="P4" to="P2">Line segment from P4 to P2</Segment>
 <Segment name="s10" n="98" color="1" hidden="true" from="P7" to="P2">Line segment from P7 to P2</Segment>
-<Polygon name="poly8" n="117" color="2" scolor="70,,70,,70" type="thin" background="true" point1="P5" point2="P4" point3="P3" point4="P7" point5="P6" point6="P1">Polygon</Polygon>
 <Circle name="c13" n="122" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P8" acute="true">Circle around P8 with radius 2.987696413389098</Circle>
 <Circle name="c15" n="128" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P12" acute="true">Circle around P12 with radius 2.9866621733436656</Circle>
 <Circle name="c17" n="134" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P10" acute="true">Circle around P10 with radius 2.206064213151687</Circle>
@@ -65,8 +64,8 @@
 <Circle name="c24" n="155" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P10" acute="true">Circle around P10 with radius 6.443199394548754</Circle>
 <Circle name="c26" n="161" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P8" acute="true">Circle around P8 with radius 5.080361819918973</Circle>
 <Circle name="c28" n="167" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P12" acute="true">Circle around P12 with radius 5.170236444072351</Circle>
-<Polygon name="poly18" n="195" color="3" type="thin" background="true" point1="P5" point2="P4" point3="P3" point4="P2">Polygon</Polygon>
-<Polygon name="poly19" n="196" color="1" type="thin" background="true" point1="P7" point2="P6" point3="P2" point4="P3">Polygon</Polygon>
+<Polygon name="poly18" n="195" color="3" scolor="70,,70,,70" type="thin" background="true" point1="P5" point2="P4" point3="P3" point4="P2">Polygon</Polygon>
+<Polygon name="poly19" n="196" color="1" scolor="1,,0,,41" type="thin" background="true" point1="P7" point2="P6" point3="P2" point4="P3">Polygon</Polygon>
 <Intersection name="P9" n="107" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="s8" second="c7" shape="circle" which="first">Intersection between s8 and c7</Intersection>
 <Intersection name="P11" n="109" color="2" scolor="70,,70,,70" type="thin" hidden="true" first="s10" second="c9" shape="circle" which="first">Intersection between s10 and c9</Intersection>
 <Intersection name="P15" n="173" color="2" type="thin" hidden="true" first="s7" second="c13" shape="circle" which="first">Intersection between s7 and c13</Intersection>
@@ -78,29 +77,38 @@
 <Intersection name="P27" n="186" color="2" type="thin" hidden="true" first="l1" second="c24" shape="circle" which="second">Intersection between l1 and c24</Intersection>
 <Intersection name="P29" n="188" color="2" type="thin" hidden="true" first="s11" second="c28" shape="circle" which="first">Intersection between s11 and c28</Intersection>
 <Intersection name="P31" n="190" color="2" type="thin" hidden="true" first="s7" second="c26" shape="circle" which="first">Intersection between s7 and c26</Intersection>
-<Polygon name="poly3" n="112" color="4" type="thin" background="true" point1="P8" point2="P9" point3="P10" point4="P11" point5="P12" point6="P13">Polygon</Polygon>
 <Circle name="c12" n="119" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P9" acute="true">Circle around P9 with radius 3.0356839412028536</Circle>
 <Circle name="c16" n="131" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="b" midpoint="P11" acute="true">Circle around P11 with radius 3.296770625059257</Circle>
 <Circle name="c18" n="137" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="c" midpoint="P9" acute="true">Circle around P9 with radius 3.9093530738815954</Circle>
 <Circle name="c22" n="149" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="c" midpoint="P11" acute="true">Circle around P11 with radius 4.020953573627009</Circle>
 <Circle name="c25" n="158" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P9" acute="true">Circle around P9 with radius 4.9034051945764725</Circle>
 <Circle name="c29" n="170" color="4" scolor="70,,70,,70" type="thin" hidden="true" fixed="d" midpoint="P11" acute="true">Circle around P11 with radius 5.671591599313733</Circle>
+<Polygon name="poly3" n="112" color="4" type="thin" background="true" point1="P8" point2="P9" point3="P10" point4="P11" point5="P12" point6="P13">Polygon</Polygon>
 <Intersection name="P14" n="171" color="2" type="thin" hidden="true" first="s8" second="c12" shape="circle" which="first">Intersection between s8 and c12</Intersection>
 <Intersection name="P18" n="176" color="2" type="thin" hidden="true" first="s10" second="c16" shape="circle" which="first">Intersection between s10 and c16</Intersection>
 <Intersection name="P20" n="178" color="2" type="thin" hidden="true" first="s8" second="c18" shape="circle" which="first">Intersection between s8 and c18</Intersection>
 <Intersection name="P22" n="181" color="2" type="thin" hidden="true" first="s10" second="c22" shape="circle" which="first">Intersection between s10 and c22</Intersection>
 <Intersection name="P26" n="184" color="2" type="thin" hidden="true" first="s8" second="c25" shape="circle" which="first">Intersection between s8 and c25</Intersection>
 <Intersection name="P28" n="187" color="2" type="thin" hidden="true" first="s10" second="c29" shape="circle" which="first">Intersection between s10 and c29</Intersection>
-<Intersection name="P33" n="215" color="2" hidden="true" first="poly3" second="c20" x="3.5" y="2.598076211353316" shape="circle">Intersection between poly3 and c20</Intersection>
-<Intersection name="P34" n="216" color="2" hidden="true" first="poly3" second="c20" x="3.5" y="-2.598076211353316" shape="circle">Intersection between poly3 and c20</Intersection>
-<Intersection name="P36" n="219" color="2" hidden="true" first="poly3" second="c12" x="15.25" y="4.763139720814413" shape="circle">Intersection between poly3 and c12</Intersection>
-<Intersection name="P37" n="222" color="2" hidden="true" first="poly3" second="c16" x="15.25" y="-4.763139720814413" shape="circle">Intersection between poly3 and c16</Intersection>
+<Intersection name="P36" n="219" color="2" hidden="true" first="poly3" second="c12" x="16.1" y="5.022947341949745" shape="circle">Intersection between poly3 and c12</Intersection>
+<Intersection name="P37" n="222" color="2" hidden="true" first="poly3" second="c16" x="16.099999999999998" y="-5.022947341949744" shape="circle">Intersection between poly3 and c16</Intersection>
+<Intersection name="P32" n="231" color="2" hidden="true" first="poly3" second="c20" x="2.8499999999999996" y="3.2042939940024233" shape="circle">Intersection between poly3 and c20</Intersection>
+<Intersection name="P33" n="233" color="2" hidden="true" first="poly3" second="c20" x="2.85" y="-3.2042939940024233" shape="circle">Intersection between poly3 and c20</Intersection>
 <Polygon name="poly10" n="172" color="2" scolor="70,,70,,70" type="thin" background="true" point1="P14" point2="P15" point3="P16" point4="P17" point5="P18" point6="P19">Polygon</Polygon>
+<Polygon name="poly14" n="185" color="2" scolor="246,,246,,246" type="thick" background="true" point1="P26" point2="P27" point3="P28" point4="P29" point5="P30" point6="P31">Polygon</Polygon>
 <Polygon name="poly12" n="179" color="2" type="thin" background="true" point1="P20" point2="P21" point3="P22" point4="P23" point5="P24" point6="P25">Polygon</Polygon>
-<Polygon name="poly14" n="185" color="2" scolor="70,,70,,70" type="thin" background="true" point1="P26" point2="P27" point3="P28" point4="P29" point5="P30" point6="P31">Polygon</Polygon>
-<Polygon name="poly23" n="214" color="2" type="thin" background="true" point1="P32" point2="P33" point3="P34" point4="P35" point5="P1">Polygon</Polygon>
-<Polygon name="poly25" n="220" color="2" type="thin" background="true" point1="P36" point2="P15" point3="P8" point4="P9">Polygon</Polygon>
-<Polygon name="poly27" n="223" color="2" type="thin" background="true" point1="P37" point2="P17" point3="P12" point4="P11">Polygon</Polygon>
+<Polygon name="poly25" n="220" color="4" type="thin" background="true" point1="P36" point2="P15" point3="P8" point4="P9">Polygon</Polygon>
+<Polygon name="poly27" n="223" color="4" type="thin" background="true" point1="P37" point2="P17" point3="P12" point4="P11">Polygon</Polygon>
+<Line name="l2" n="227" color="3" hidden="true" from="P26" to="P31">Line through P26 and P31</Line>
+<Line name="l3" n="230" color="3" hidden="true" from="P28" to="P29">Line through P28 and P29</Line>
+<Line name="l5" n="236" color="3" hidden="true" from="P32" to="P33">Line through P32 and P33</Line>
+<Plumb name="p1" n="239" color="3" hidden="true" point="P32" line="l5" valid="true">Perpendicular line through P32 to l5</Plumb>
+<Plumb name="p2" n="242" color="3" hidden="true" point="P33" line="l5" valid="true">Perpendicular line through P33 to l5</Plumb>
+<Intersection name="P35" n="283" color="2" hidden="true" first="poly16" second="p1" x="1.85" y="3.2042939940024233" shape="circle">Intersection between poly16 and p1</Intersection>
+<Intersection name="P38" n="284" color="2" hidden="true" first="poly3" second="p1" x="2.8499999999999996" y="3.2042939940024233" shape="circle">Intersection between poly3 and p1</Intersection>
+<Intersection name="P39" n="285" color="2" hidden="true" first="poly3" second="p2" x="2.8499999999999996" y="-3.2042939940024233" shape="circle">Intersection between poly3 and p2</Intersection>
+<Intersection name="P40" n="286" color="2" hidden="true" first="poly16" second="p2" x="1.85" y="-3.2042939940024233" shape="circle">Intersection between poly16 and p2</Intersection>
+<Polygon name="poly23" n="282" color="1" type="thin" background="true" point1="P34" point2="P35" point3="P38" point4="P39" point5="P40">Polygon</Polygon>
 </Objects>
 </Construction>
 </CaR>
